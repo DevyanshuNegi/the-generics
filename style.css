@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+/* font add */
+
+*{
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(46, 46, 46);
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.nav ul{
+    margin: 0;
+}
+
+.nav li{
+    display :inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .7em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+/* .main-nav{
+    text-align: center;
+    font-size: 1.1em ;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    
+} */
+/* not working */
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    
+}
+
+
+.main-nav li {
+    padding: 0.5%;
+}
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.main-header{
+    /* background-image: ; */
+    background-color: rgba(0, 0,0, .6);
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
+    text-align: center;
+    
+}
+
+.band-name{
+    text-align: center;
+    margin: 0px;
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-weight: normal;
+}
+
+.band-name-large{
+    font-size: 8em;
+}
+
+.content-section{
+    margin: 1em;
+
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-header{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-band-image{
+    border-radius: 50px;
+    align-self: center;
+    /* float: left; */
+    height: 400px;
+}
+
+.main-footer{
+    background-color: #56CCF2;
+    color: white;
+    padding: .25em 0;
+
+}
+
+.main-footer-container{
+    /* very complex is flex */
+    display: flex;
+}
+
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: right;
+}
+
+.footer-nav{
+    padding: 0 .5em;
+
+}
+
+.footer-nav img{
+    width: 30px;
+    height: 30px;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header{
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #45CCF2;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+
+}
+
+.btn-header:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-play{
+    display: block;
+    margin: 0 auto; 
+    /* what are these two parameters in margin google */
+    font-size: 4em;
+    padding: 0;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;  
+    color: #45CCF2;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.tour-row{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-row:last-child{
+    border-bottom: none;
+}
+
+.tour-item{
+    padding-right: .5em;
+    display: inline-block;
+
+}
+
+.tour-date{
+    color:#555;
+    font-weight: bold;
+    width: 11%;
+
+}
+
+.tour-city{
+    width: 31%;
+}
+
+
+.tour-arena{
+    width: 35%;
+}
+
+.tour-btn{
+    max-width: 19%;
+}
+
+.primary-btn{
+    color: white;
+    background-color: #45CCF2;
+    border-radius: .3em;
+    font-weight: bold;
+
+}
+
+.primary-btn:hover{
+    background-color: #2D9CDB;
+}
